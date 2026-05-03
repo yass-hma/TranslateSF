@@ -1,0 +1,675 @@
+# Use the Bilingual file to review translations, edit labels that have already been translated, and add translations for labels that haven't been translated.
+# - The TRANSLATED section of the file contains the text that has been translated and needs to be reviewed.
+# - The OUTDATED AND UNTRANSLATED section of the file contains text that hasn't been translated. You can replace untranslated labels in the LABEL column with translated values.
+
+# The Out of Date indicators are:
+# - An asterisk (*): The label is out of date. A change was made to the default language label and the translation hasn't been updated.
+# - A dash (-): The translation is current.
+
+# Notes:
+# Don't add columns to or remove columns from this file.
+# Tabs (\t), new lines (\n) and carriage returns (\r) are represented by special characters in this file. These characters should be preserved in the import file to maintain formatting.
+# Lines that begin with the # symbol are ignored during import.
+# Salesforce translation files are exported in the UTF-8 encoding to support extended and double-byte characters. This encoding cannot be changed.
+
+# Language: French
+Language code: fr
+Type: Bilingual
+Translation type: Metadata
+
+------------------TRANSLATED-------------------
+
+# KEY	LABEL	TRANSLATION	OUT OF DATE
+
+CustomField.Action_Plan__c.Closed_Date.FieldLabel	Closed Date	Date de clôture	-
+CustomField.Action_Plan__c.End_Date.FieldLabel	End Date	Date de fin	-
+CustomField.Action_Plan__c.Start_Date.FieldLabel	Start Date	Date de début	-
+CustomField.Action_Plan__c.Status.FieldLabel	Status	Statut	-
+CustomField.Case.AYV_Financial_correction_approved_amount.FieldLabel	AYV Financial correction approved amount	Montant correction fin. approuvé	-
+CustomField.Case.Accident_Locality.FieldLabel	Accident Locality	Lieu d'Accident	-
+CustomField.Case.Accident_Type.FieldLabel	Accident Type	Nature du sinistre	-
+CustomField.Case.Actual_Commercial_gesture_amount.FieldLabel	Actual Commercial gesture amount	Montant réel du geste commercial	-
+CustomField.Case.Actual_Operational_loss_amount.FieldLabel	Actual Operational loss amount	Montant réel de la perte opérationnelle	-
+CustomField.Case.Actual_Repair_End_Date_Time.FieldLabel	Actual Repair End Date/Time	Date et heure  fin réparation effective	-
+CustomField.Case.Actual_Repair_Start_Date_Time.FieldLabel	Actual Repair Start Date/Time	Date et heure début réparation effective	-
+CustomField.Case.Actual_Vehicle_Buffer_Amount.FieldLabel	Actual Vehicle Allocation Amount​	Montant compensation commerciale	-
+CustomField.Case.Agency.FieldLabel	Agency	Agence	-
+CustomField.Case.Case_Source.FieldLabel	Case Source	Source de la requête	-
+CustomField.Case.Case_resolved.FieldLabel	Case resolved	Cas résolu	-
+CustomField.Case.Close_Date_Time_Objective.FieldLabel	Close Date / Time Objective	Objectif de fermeture	-
+CustomField.Case.Close_Date_Time_Objective.HelpText	Case Open Date + SLA	correspond à la date de l’ouverture du case + SLA	-
+CustomField.Case.Complaint.FieldLabel	Complaint	Réclamations	-
+CustomField.Case.ComplaintActionPlan.FieldLabel	Complaint Action Plan	Plan d'action de la réclamation	-
+CustomField.Case.Complaint_Closure_type.FieldLabel	Complaint Closure type	Type de clôture de réclamation	-
+CustomField.Case.Complaint_Description.HelpText	Describe the analysis done on the complaint and the conclusion	Décrivez l’analyse réalisée sur la réclamation ainsi que la conclusion	-
+CustomField.Case.Complaint_Guilty_Party.FieldLabel	Complaint Guilty Party	Dysfonctionnement	-
+CustomField.Case.Complaint_justified.FieldLabel	Complaint justified	Réclamation justifiée	-
+CustomField.Case.Complaint_justified.HelpText	Flag this field if the complaint was justified. "Error" or "Client exaggeration" are not considered justified.	Flagguer ce champ si la plainte est justifiée. "erreur" ou "Exagération du client" ne sont des justifications.	-
+CustomField.Case.Complaint_reason.FieldLabel	Complaint reason	Raison de la réclamation	-
+CustomField.Case.Complaint_reason.HelpText	Insert the reason based on your analysis of what caused the complaint	Indiquez le motif sur la base de votre analyse de l’origine de la réclamation	-
+CustomField.Case.Complaint_recurrency.FieldLabel	Complaint recurrency	Réccurence des réclamations	-
+CustomField.Case.Complaint_type.HelpText	Insert a value based on the analysis of the complaint	Indiquez le motif à partir de votre analyse de ce qui a causé la réclamation	-
+CustomField.Case.Contract.FieldLabel	Contract	Contrat	-
+CustomField.Case.Contract.RelatedListLabel	Cases	Requêtes	-
+CustomField.Case.Cost_Of_Repairs.FieldLabel	Cost Of Repairs	Coût des réparations	-
+CustomField.Case.Damage_file_number.FieldLabel	Damage File Number	Numero du Dossier de Sinistre	-
+CustomField.Case.Escalation_Type.FieldLabel	Escalation Type	Type d'escalade	-
+CustomField.Case.Estimated_Financial_impact.FieldLabel	Estimated Financial impact	Estimation de l'impact Financier	-
+CustomField.Case.Event_description.FieldLabel	Event Description	Description de l’évènement	-
+CustomField.Case.Expected_Repair_End_Date.FieldLabel	Expected Repair End Date	Date de fin de réparation prévue	-
+CustomField.Case.External_Case_Category.FieldLabel	Case Category	Catégorie	-
+CustomField.Case.External_Case_Detail.FieldLabel	Case Detail	Détail	-
+CustomField.Case.External_Case_Type.FieldLabel	Case Type	Type	-
+CustomField.Case.External_description.FieldLabel	Case Description	Description	-
+CustomField.Case.Financial_Impact_type.FieldLabel	Financial Impact type	Type d'impact Financier	-
+CustomField.Case.Financial_impact.FieldLabel	Impact Type​	Type d'impact	-
+CustomField.Case.Financial_impact.HelpText	Let us know if a financial or comercial loss can be attributed to this complaint (reimbursement not applicable)	Précisez si cette réclamation a entraîné une perte financière ou commerciale (hors remboursement)	-
+CustomField.Case.Followed_by.FieldLabel	Followed by	Suiveur	-
+CustomField.Case.Fuel_SupplierA.FieldLabel	Fuel Supplier	Pétrolier	-
+CustomField.Case.Fuel_Type1.FieldLabel	Fuel Type	Type de carburant	-
+CustomField.Case.Fuel_supplier.FieldLabel	Fuel Supplier	Pétrolier	-
+CustomField.Case.Guilty_party.FieldLabel	Guilty Party	Partie fautive	-
+CustomField.Case.HasLocalAttachment.FieldLabel	Has Local Attachment	Pièce jointe en local	-
+CustomField.Case.HasLocalAttachment.HelpText	Indicates that documents are available on the server	Indique que les documents sont disponibles sur le serveur.	-
+CustomField.Case.Inform_Contact_On_Case_Closed.FieldLabel	Inform Contact On Case Closed	Avertir le contact (client) à l’origine de la demande	-
+CustomField.Case.Insurance.FieldLabel	Insurance	Assurance	-
+CustomField.Case.Insurance_Status.FieldLabel	Insurance Status	Statut étude assurance	-
+CustomField.Case.Internal_Comments.FieldLabel	Internal Comments	Commentaires sur la requête	-
+CustomField.Case.Keyword.FieldLabel	Keyword	Mot Clé	-
+CustomField.Case.Latest_Email_Description.FieldLabel	Latest Email Description	Détail du dernier mail	-
+CustomField.Case.Litigation_Manager.FieldLabel	Litigation Manager	Gestionnaire	-
+CustomField.Case.Managed_By.FieldLabel	Managed By	Contentieux Géré par	-
+CustomField.Case.Mileage.FieldLabel	Mileage	Kilométrage	-
+CustomField.Case.Montant_HT.FieldLabel	Montant_HT	Montant validé du devis	-
+CustomField.Case.Number_of_days.FieldLabel	Number of days	Nombre de jours	-
+CustomField.Case.Operational_Status.FieldLabel	Operational Status	Statut opérationnel	-
+CustomField.Case.Original_number.FieldLabel	Case Number Legacy	N°dossier hérité	-
+CustomField.Case.Original_number.HelpText	This field is used to store original case number when the case is archived by own{backup}.	Ce champ est utilisé pour stocker le N°dossier original lorsque le dossier est archivé	-
+CustomField.Case.Reason_for_Repair_Delay.FieldLabel	Reason for Repair Delay	Raison du retard	-
+CustomField.Case.Relief_Vehicle_Category_New.FieldLabel	Relief Vehicle Category	Catégorie du véhicule de remplacement	-
+CustomField.Case.Relief_vehicle_category.FieldLabel	Relief Vehicle Category	Catégorie de VHR	-
+CustomField.Case.Request_reason.FieldLabel	Request Reason	Raison de la demande	-
+CustomField.Case.Return_date_time.FieldLabel	Return Date & Time	Date et heure de retour	-
+CustomField.Case.RiskSeverity.FieldLabel	Risk Severity	Gravité du risque	-
+CustomField.Case.Risk_risk_taxonomy.FieldLabel	Risk (risk taxonomy)	Taxonomie des risques	-
+CustomField.Case.SLA_deadline_VOR_Date_time.FieldLabel	SLA deadline VOR/Date time	SLA deadline Date et heure	-
+CustomField.Case.Send_English_eMail_version.FieldLabel	Send English eMail version	Envoyer email version anglaise	-
+CustomField.Case.Solution.HelpText	What kind of action was or will be taken to solve this kind of situation ? Insert "No action" if not applicable	Quelle action est mise en place afin de résoudre ce type de situation ? Indiquez « Aucune action » si cela ne s’applique pas	-
+CustomField.Case.Supplier.FieldLabel	Supplier	Fournisseur	-
+CustomField.Case.Third_Party_Involved.FieldLabel	Third Party Involved	Tiers impliqué	-
+CustomField.Case.Total_Time_Remaining.FieldLabel	Time Remaining in Hrs	Temps restant total (h)	-
+CustomField.Case.Treatment_Time_Objective.FieldLabel	Objective in Hrs	Objectif de temps de traitement (heure)	-
+CustomField.Case.Type_of_Client.FieldLabel	Type of Client	Type de Client	-
+CustomField.Case.Tyre_size.FieldLabel	Tyre size	Dimension pneu	-
+CustomField.Case.Vehicle.FieldLabel	Vehicle Condition	Etat du Véhicule	-
+CustomField.Case.Vehicle_Model.FieldLabel	Model	Modèle	-
+PicklistValue.Case.AWD_4WD.No	No	Non	-
+PicklistValue.Case.AWD_4WD.Yes	Yes	Oui	-
+PicklistValue.Case.Accident_Type.Bris de glasse	Bris de glasse	Bris de glasses	-
+PicklistValue.Case.Accident_Type.Constat amiable	Constat amiable	Constat amiable	-
+PicklistValue.Case.Accident_Type.Fortuit	Fortuit	Fortuit	-
+PicklistValue.Case.Accident_Type.Other	Other	Autre	-
+PicklistValue.Case.Accident_Type.PV	PV	PV	-
+PicklistValue.Case.Accident_Type.Vol poste radio	Vol poste radio	Vol poste radio	-
+PicklistValue.Case.Accident_Type.Vol vehicule	Vol vehicule	Vol véhicule	-
+PicklistValue.Case.Case_Source.Customer	Customer	Client	-
+PicklistValue.Case.Case_Source.Supplier	Supplier	Fournisseur	-
+PicklistValue.Case.Case_resolved.No	No	Non	-
+PicklistValue.Case.Case_resolved.Yes	Yes	Oui	-
+PicklistValue.Case.Commercial_Gesture.No	No	Non	-
+PicklistValue.Case.Commercial_Gesture.Yes	Yes	Oui	-
+PicklistValue.Case.Complaint_Closure_type.Abandoned	Abandoned	Abandonné (sans suite)	-
+PicklistValue.Case.Complaint_Closure_type.Closed with customer agreement	Closed with customer agreement	Fermé avec l'accord du client	-
+PicklistValue.Case.Complaint_Closure_type.Closed without customer disagreement	Closed without customer disagreement	Fermé sans désaccord du client	-
+PicklistValue.Case.Complaint_Closure_type.Escalated	Escalated	Escaladé	-
+PicklistValue.Case.Complaint_Closure_type.Litigation	Litigation	Litige / Contentieux	-
+PicklistValue.Case.Complaint_Closure_type.Settlement	Settlement	Règlement	-
+PicklistValue.Case.Complaint_Dispute.No	No	Non	-
+PicklistValue.Case.Complaint_Dispute.Yes	Yes	Oui	-
+PicklistValue.Case.Complaint_Guilty_Party.Ayvens	Ayvens	AYVENS	-
+PicklistValue.Case.Complaint_Guilty_Party.Broker	Broker	Partenaire	-
+PicklistValue.Case.Complaint_Guilty_Party.Customer	Customer	Client	-
+PicklistValue.Case.Complaint_Guilty_Party.Driver	Driver	Conducteur	-
+PicklistValue.Case.Complaint_Guilty_Party.None	None	Aucun	-
+PicklistValue.Case.Complaint_Guilty_Party.Supplier	Supplier	Fournisseur	-
+PicklistValue.Case.Complaint_justified.No	No	Non	-
+PicklistValue.Case.Complaint_justified.Yes	Yes	Oui	-
+PicklistValue.Case.Complaint_reason.Agreement breach	Agreement breach	Non respect de l'accord	-
+PicklistValue.Case.Complaint_reason.Breach of consumer regulatory requirements	Breach of consumer regulatory requirements	Non-respect des exigences de la loi relative à la Consommation	-
+PicklistValue.Case.Complaint_reason.Breach of other legal or regulatory requirements	Breach of other legal or regulatory requirements	Non-respect d'autres exigences légales ou règlementaires	-
+PicklistValue.Case.Complaint_reason.Contract Coverage	Contract Coverage	couverture du contrat	-
+PicklistValue.Case.Complaint_reason.Cost Invoice amount disagreement	Cost Invoice amount disagreement	Désaccord sur le montant facturé	-
+PicklistValue.Case.Complaint_reason.Customer overreacts	Customer overreacts	Réaction excessive du client	-
+PicklistValue.Case.Complaint_reason.Defect	Defect	Défaut	-
+PicklistValue.Case.Complaint_reason.Delays in response	Delays in response	Délais de réponse	-
+PicklistValue.Case.Complaint_reason.Digital tools / technical problems	Digital tools / technical problems	Problèmes techniques ou outils digitaux	-
+PicklistValue.Case.Complaint_reason.Disagreement with Ayvens Policy	Disagreement with Ayvens Policy	Désaccord avec la potitique Ayvens	-
+PicklistValue.Case.Complaint_reason.Disagreement with Ayvens Process	Disagreement with Ayvens Process	Désaccord avec le process Ayvens	-
+PicklistValue.Case.Complaint_reason.Disregard of legal payment regulations	Disregard of legal payment regulations	Non-respect des règles légales de paiement	-
+PicklistValue.Case.Complaint_reason.Disregard of legal payment regulations - Broadcasting	Disregard of legal payment regulations - Broadcasting	Non-respect des règles de paiement légales – Diffusion	-
+PicklistValue.Case.Complaint_reason.Disregard of legal payment regulations - Claims service	Disregard of legal payment regulations - Claims service	Non-respect des règles de paiement légales – Service Sinistres	-
+PicklistValue.Case.Complaint_reason.Disregard of legal payment regulations - Premium processing	Disregard of legal payment regulations - Premium processing	Non-respect des règles de paiement légales – Traitement des primes	-
+PicklistValue.Case.Complaint_reason.Disregard of legal payment regulations - Rental car	Disregard of legal payment regulations - Rental car	Non-respect des règles de paiement légales – Véhicule de location	-
+PicklistValue.Case.Complaint_reason.Disregard of legal payment regulations - Tax	Disregard of legal payment regulations - Tax	Non-respect des règles fiscales	-
+PicklistValue.Case.Complaint_reason.Disregard of legal payment regulations - Third-party rate	Disregard of legal payment regulations - Third-party rate	Non-respect des règles de paiement légales – Tarification tiers	-
+PicklistValue.Case.Complaint_reason.Execution error	Execution error	Erreur d'exécution	-
+PicklistValue.Case.Complaint_reason.External Fraud	External Fraud	Fraude externe	-
+PicklistValue.Case.Complaint_reason.Incomplete data	Incomplete data	Données incomplètes	-
+PicklistValue.Case.Complaint_reason.Incorrect Service Fulfillment	Incorrect Service Fulfillment	Exécution incorrecte	-
+PicklistValue.Case.Complaint_reason.Incorrect account closure	Incorrect account closure	Clôture de compte incorrecte	-
+PicklistValue.Case.Complaint_reason.Incorrect execution of contractual clauses	Incorrect execution of contractual clauses	Mauvaise exécution des clauses contractuelles	-
+PicklistValue.Case.Complaint_reason.Incorrect service closure	Incorrect service closure	Clôture de service incorrecte	-
+PicklistValue.Case.Complaint_reason.Incorrect/Inaccurate data	Incorrect/Inaccurate data	Données incorrectes et inexactes	-
+PicklistValue.Case.Complaint_reason.Internal Fraud	Internal Fraud	Fraude interne	-
+PicklistValue.Case.Complaint_reason.Lack of communication	Lack of communication	Manque de communication	-
+PicklistValue.Case.Complaint_reason.Lack of customer services (inLife)	Lack of customer services (inLife)	Insuffisance du service client (InLife)	-
+PicklistValue.Case.Complaint_reason.Lack of data	Lack of data	Manque de données	-
+PicklistValue.Case.Complaint_reason.Lack of follow-up	Lack of follow-up	Manque de suivi	-
+PicklistValue.Case.Complaint_reason.Lack of procedures/organisation	Lack of procedures/organisation	Manque de procédures/organisation	-
+PicklistValue.Case.Complaint_reason.Lack of response	Lack of response	Manque de réponse	-
+PicklistValue.Case.Complaint_reason.Lack of sales service (before contract signature or renewal)	Lack of sales service (before contract signature or renewal)	Manque de service commercial (avant signature ou renouvellement du contrat)	-
+PicklistValue.Case.Complaint_reason.Loss of data	Loss of data	Perte de données	-
+PicklistValue.Case.Complaint_reason.Non-Conformity	Non-Conformity	Non-conformité	-
+PicklistValue.Case.Complaint_reason.Other	Other	Autre (merci de spécifier : …)	-
+PicklistValue.Case.Complaint_reason.Payments issue	Payments issue	Problèmes de paiement	-
+PicklistValue.Case.Complaint_reason.Poor Accessibility	Poor Accessibility	Accessibilité insuffisante	-
+PicklistValue.Case.Complaint_reason.Poor communication	Poor communication	Communication faible	-
+PicklistValue.Case.Complaint_reason.Pricing mistake	Pricing mistake	Erreur de tarification	-
+PicklistValue.Case.Complaint_reason.Refusal	Refusal	Refus	-
+PicklistValue.Case.Complaint_reason.Reimbursement amount disagreement	Reimbursement amount disagreement	Désaccord sur le montant du remboursement	-
+PicklistValue.Case.Complaint_reason.Service Coverage	Service Coverage	Couverture de service	-
+PicklistValue.Case.Complaint_reason.Service fulfillment delays	Service fulfillment delays	Retard dans l'exécution du service	-
+PicklistValue.Case.Complaint_reason.Service not provided	Service not provided	Service non délivré	-
+PicklistValue.Case.Complaint_reason.Settlement amount disagreement	Settlement amount disagreement	Désaccord sur le montant du règlement	-
+PicklistValue.Case.Complaint_reason.Special request/condition breach	Special request/condition breach	Demande spéciale/non respect de clauses	-
+PicklistValue.Case.Complaint_reason.Supplier Network coverage	Supplier Network coverage	Couverture du réseau fournisseur	-
+PicklistValue.Case.Complaint_reason.Supplier Network service quality	Supplier Network service quality	Qualité de service du réseau fournisseur	-
+PicklistValue.Case.Complaint_reason.Technical problems - IT failures	Technical problems - IT failures	Problèmes techniques - Défaillance de l'IT	-
+PicklistValue.Case.Complaint_reason.Unclear information	Unclear information	Informations peu claires	-
+PicklistValue.Case.Complaint_reason.Unclear price	Unclear price	coût /devis pas clair	-
+PicklistValue.Case.Complaint_reason.Unfair price	Unfair price	coût/devis injustifié	-
+PicklistValue.Case.Complaint_reason.Unfair treatment	Unfair treatment	Traitement injuste	-
+PicklistValue.Case.Complaint_reason.Unsatisfactory response	Unsatisfactory response	Réponse non satisfaisante	-
+PicklistValue.Case.Complaint_type.Account or service closure	Account or service closure	Fermeture de compte ou de service	-
+PicklistValue.Case.Complaint_type.Actions or decisions	Actions or decisions	Actions ou décisions	-
+PicklistValue.Case.Complaint_type.Behaviour towards the customer	Behaviour towards the customer	Comportement envers le client	-
+PicklistValue.Case.Complaint_type.File management	File management	Gestion des fichiers	-
+PicklistValue.Case.Complaint_type.Fraud	Fraud	Fraude	-
+PicklistValue.Case.Complaint_type.Improper business practices or lack of quality of services/products (ALD)	Improper business practices or lack of quality of services/products (ALD)	Pratiques commerciales inappropriées ou manque de qualité des services/produits (ALD)	-
+PicklistValue.Case.Complaint_type.Improper business practices or lack of quality of services/products (provider/supplier)	Improper business practices or lack of quality of services/products (provider/supplier)	Pratiques commerciales inappropriées ou manque de qualité des services/produits (prestataire/fournisseur)	-
+PicklistValue.Case.Complaint_type.Inaction or delay	Inaction or delay	Inaction ou retard	-
+PicklistValue.Case.Complaint_type.Information/advice	Information/advice	Information/conseil	-
+PicklistValue.Case.Complaint_type.Malfunction of the product or service	Malfunction of the product or service	Défaillance de la prestation ou service	-
+PicklistValue.Case.Complaint_type.Others	Others	Autres	-
+PicklistValue.Case.Complaint_type.Policy and processes	Policy and processes	Politiques et processus	-
+PicklistValue.Case.Complaint_type.Price of products/Services	Price of products/Services	Prix des produits/services	-
+PicklistValue.Case.Complaint_type.Pricing	Pricing	Tarification	-
+PicklistValue.Case.Complaint_type.Quality of the offer	Quality of the offer	Qualité de l'offre	-
+PicklistValue.Case.Complaint_type.Services	Services	Services	-
+PicklistValue.Case.Complaint_type.Setting up/refusal to grant products or services / withdrawal	Setting up/refusal to grant products or services / withdrawal	Mise en place / refus d’octroi de produits ou services / retrait	-
+PicklistValue.Case.Complaints_Reason.Fraud	Fraud	Fraude	-
+PicklistValue.Case.Customer_Insurance.No	No	Non	-
+PicklistValue.Case.Customer_Insurance.Yes	Yes	Oui	-
+PicklistValue.Case.Customer_litigation.No	No	Non	-
+PicklistValue.Case.Customer_litigation.Yes	Yes	Oui	-
+PicklistValue.Case.Dispute.No	No	Non	-
+PicklistValue.Case.Dispute.Yes	Yes	Oui	-
+PicklistValue.Case.Dispute1.No	No	Non	-
+PicklistValue.Case.Dispute1.Yes	Yes	Oui	-
+PicklistValue.Case.Escalation_Type.Internal fraud	Internal fraud	Fraude interne	-
+PicklistValue.Case.Escalation_Type.Ombudsman Involved	Ombudsman Involved	médiateur impliqué	-
+PicklistValue.Case.Escalation_Type.Recurring commercial issue	Recurring commercial issue	Pb commercial récurrent	-
+PicklistValue.Case.Escalation_Type.Sensitive	Sensitive	sensible	-
+PicklistValue.Case.Estimated_Workload.High	High	Elevé	-
+PicklistValue.Case.Estimated_Workload.Low	Low	Faible	-
+PicklistValue.Case.Estimated_Workload.Medium	Medium	Moyen	-
+PicklistValue.Case.External_Case_Category.Accident Management	Accident Management	Gestion des sinistres	-
+PicklistValue.Case.External_Case_Category.Administration	Administration	Administration	-
+PicklistValue.Case.External_Case_Category.Administrative	Administrative	ADMINISTRATIF	-
+PicklistValue.Case.External_Case_Category.Alert fraud	Alert fraud	ALERTE FRAUDE	-
+PicklistValue.Case.External_Case_Category.Assistance	Assistance	ASSISTANCE / VH de REMPL	-
+PicklistValue.Case.External_Case_Category.Billing	Billing	FACTURATION	-
+PicklistValue.Case.External_Case_Category.Choose Mobility	Choose Mobility	ACTION COMMERCIALE	-
+PicklistValue.Case.External_Case_Category.Complaint	Complaint	Réclamation	-
+PicklistValue.Case.External_Case_Category.Contract Management	Contract Management	VIE DU CONTRAT	-
+PicklistValue.Case.External_Case_Category.Contract administration	Contract administration	Gestion des contrats	-
+PicklistValue.Case.External_Case_Category.Door To Door	Door To Door	Service Link	-
+PicklistValue.Case.External_Case_Category.ELECTRONIC TOLL	ELECTRONIC TOLL	TELEPEAGE	-
+PicklistValue.Case.External_Case_Category.End of Contract & Remarketing	End of Contract & Remarketing	Fin de Contrat et Revente	-
+PicklistValue.Case.External_Case_Category.End of contract	End of contract	FIN DE CONTRAT	-
+PicklistValue.Case.External_Case_Category.Finance	Finance	FINANCES	-
+PicklistValue.Case.External_Case_Category.Fines	Fines	Contraventions	-
+PicklistValue.Case.External_Case_Category.Fuel	Fuel	CARBURANT	-
+PicklistValue.Case.External_Case_Category.Insurance	Insurance	ASSURANCES	-
+PicklistValue.Case.External_Case_Category.Invoices & Accounting	Invoices & Accounting	Comptabilité/Facturation	-
+PicklistValue.Case.External_Case_Category.Invoicing	Invoicing	Facturation	-
+PicklistValue.Case.External_Case_Category.Legal	Legal	Juridique	-
+PicklistValue.Case.External_Case_Category.Maintenance	Maintenance	MAINTENANCE	-
+PicklistValue.Case.External_Case_Category.Maintenance & Repairs	Maintenance & Repairs	Entretien & Réparations	-
+PicklistValue.Case.External_Case_Category.Maintenance/Tyres	Maintenance/Tyres	ENTRETIEN/PNEU	-
+PicklistValue.Case.External_Case_Category.Management Services	Management Services	GESTION DES SERVICES	-
+PicklistValue.Case.External_Case_Category.Mobility Services	Mobility Services	SERVICES MOBILITE	-
+PicklistValue.Case.External_Case_Category.Order & Delivery	Order & Delivery	Commande/Livraison	-
+PicklistValue.Case.External_Case_Category.Order and deliveries	Order and deliveries	COMMANDES/LIVRAISONS	-
+PicklistValue.Case.External_Case_Category.Partners	Partners	PARTENAIRES	-
+PicklistValue.Case.External_Case_Category.Quality	Quality	Qualité - Réclamation ou remerciement	-
+PicklistValue.Case.External_Case_Category.Quotes	Quotes	DEVIS	-
+PicklistValue.Case.External_Case_Category.Relief	Relief	Véhicule de Remplacement	-
+PicklistValue.Case.External_Case_Category.Return	Return	RESTITUTION	-
+PicklistValue.Case.External_Case_Category.Road Assistance	Road Assistance	Assistance	-
+PicklistValue.Case.External_Case_Category.Sales followup	Sales followup	SUIVI COMMERCIAL	-
+PicklistValue.Case.External_Case_Category.Short term and relief vehicle	Short term and relief vehicle	Véhicule de Remplacement & CD…	-
+PicklistValue.Case.External_Case_Category.Supplier	Supplier	Fournisseur	-
+PicklistValue.Case.External_Case_Category.Taxes	Taxes	FISCALITE	-
+PicklistValue.Case.External_Case_Category.Tires	Tires	PNEUS	-
+PicklistValue.Case.External_Case_Category.Tyres Management	Tyres Management	Pneumatique	-
+PicklistValue.Case.External_Case_Category.Vehicle accesories and equipement	Vehicle accesories and equipement	Accessoires et équipements de véhicule	-
+PicklistValue.Case.External_Case_Detail.ACCESSORY QUOTE	ACCESSORY QUOTE	DEVIS ACCESSOIRE	-
+PicklistValue.Case.External_Case_Detail.ADMINISTRATIVE CANCELLATION	ADMINISTRATIVE CANCELLATION	ANNULATION ADMINISTATIVE	-
+PicklistValue.Case.External_Case_Detail.AEN EXPLANATION	AEN EXPLANATION	AEN EXPLICATION	-
+PicklistValue.Case.External_Case_Detail.ALD Employees	ALD Employees	COLLABORATEURS ALD	-
+PicklistValue.Case.External_Case_Detail.ALD Net	ALD Net	MY MANAGER	-
+PicklistValue.Case.External_Case_Detail.ALD demat	ALD demat	E FACTURE	-
+PicklistValue.Case.External_Case_Detail.ALD property	ALD property	ATTESTATION DE PROPRIETE	-
+PicklistValue.Case.External_Case_Detail.AND EXPLANATION	AND EXPLANATION	AND EXPLICATION	-
+PicklistValue.Case.External_Case_Detail.Accessories	Accessories	EFFETS PERSONNELS	-
+PicklistValue.Case.External_Case_Detail.Activation	Activation	ACTIVATION	-
+PicklistValue.Case.External_Case_Detail.Add and remove services	Add and remove services	GARDIENNAGE	-
+PicklistValue.Case.External_Case_Detail.Additional data	Additional data	Informations Supplémentaires	-
+PicklistValue.Case.External_Case_Detail.Additional services	Additional services	FRAIS DE DEPRECIATION COMPLEMENTAIRE	-
+PicklistValue.Case.External_Case_Detail.Address	Address	MAJ ADRESSE	-
+PicklistValue.Case.External_Case_Detail.Address change	Address change	AUTRE	-
+PicklistValue.Case.External_Case_Detail.Advance restitution	Advance restitution	COMPENSATION COMMERCIALE	-
+PicklistValue.Case.External_Case_Detail.Agreement Request	Agreement Request	ACCORD DE REFACTURATION	-
+PicklistValue.Case.External_Case_Detail.Already payed by driver	Already payed by driver	Déjà Payée par le Conducteur	-
+PicklistValue.Case.External_Case_Detail.Appointment	Appointment	DEMANDE DE RDV	-
+PicklistValue.Case.External_Case_Detail.Assistance provider	Assistance provider	ASSISTANCE	-
+PicklistValue.Case.External_Case_Detail.Availability	Availability	MISE A DISPOSITION	-
+PicklistValue.Case.External_Case_Detail.Babysitting Fees	Babysitting Fees	FRAIS DE GARDIENNAGE	-
+PicklistValue.Case.External_Case_Detail.Badge blocking	Badge blocking	OPPOSTION TELEBADGE	-
+PicklistValue.Case.External_Case_Detail.Bill extra Km	Bill extra Km	MODIFICATION DATE OU KM APRES RESTIT	-
+PicklistValue.Case.External_Case_Detail.Blocked delivery	Blocked delivery	Refus de livraison	-
+PicklistValue.Case.External_Case_Detail.Body	Body	CARROSSERIE	-
+PicklistValue.Case.External_Case_Detail.Bonus penalty	Bonus penalty	BONUS MALUS	-
+PicklistValue.Case.External_Case_Detail.Booking alteration	Booking alteration	DEBLOCAGE COMPTE CONTENTIEUX	-
+PicklistValue.Case.External_Case_Detail.Box Restitution	Box Restitution	PV DE RESTITUTION	-
+PicklistValue.Case.External_Case_Detail.Burglary	Burglary	VOL RETROUVE	-
+PicklistValue.Case.External_Case_Detail.Burglary / Car theft (car)	Burglary / Car theft (car)	VOL DE VEHICULE	-
+PicklistValue.Case.External_Case_Detail.Business discount	Business discount	GESTE COMMERCIAL	-
+PicklistValue.Case.External_Case_Detail.CANCELS AND REPLACES	CANCELS AND REPLACES	ANNULE ET REMPLACE	-
+PicklistValue.Case.External_Case_Detail.CARNET DE BORD	CARNET DE BORD	DOCUMENTS DE BORD	-
+PicklistValue.Case.External_Case_Detail.CLIENT PARKING	CLIENT PARKING	RECUPERATION SITE CLIENT	-
+PicklistValue.Case.External_Case_Detail.COMPTE PETROLIER	COMPTE PETROLIER	OUVERTURE COMPTE PETROLIER	-
+PicklistValue.Case.External_Case_Detail.COULEUR	COULEUR	CREATION DE COULEUR	-
+PicklistValue.Case.External_Case_Detail.COVID19	COVID19	REPORT COVID19	-
+PicklistValue.Case.External_Case_Detail.CPI GESTE COMMERCIAL	CPI GESTE COMMERCIAL	CPI GESTE COMMERCIAL	-
+PicklistValue.Case.External_Case_Detail.CPI REFACTURATION CLIENT	CPI REFACTURATION CLIENT	CPI REFACTURATION	-
+PicklistValue.Case.External_Case_Detail.CT	CT	CONTRÔLE TECHNIQUE	-
+PicklistValue.Case.External_Case_Detail.Car Replacement	Car Replacement	VEHICULE DE REMPLACEMENT	-
+PicklistValue.Case.External_Case_Detail.Car license	Car license	CARTE GRISE DUPLICATA	-
+PicklistValue.Case.External_Case_Detail.Car reassignment	Car reassignment	REAFFECTATION	-
+PicklistValue.Case.External_Case_Detail.Car return	Car return	REMISE A LA ROUTE	-
+PicklistValue.Case.External_Case_Detail.Car theft	Car theft	VANDALISME	-
+PicklistValue.Case.External_Case_Detail.Card blocking	Card blocking	OPPOSITION CARTE ENERGIE	-
+PicklistValue.Case.External_Case_Detail.Card duplicate	Card duplicate	DUPLICATA CARTE ACCREDITIVE	-
+PicklistValue.Case.External_Case_Detail.Card lost	Card lost	OPPOSITION ET DUPLICATA CARTE ENERGIE	-
+PicklistValue.Case.External_Case_Detail.Card/ring not functioning	Card/ring not functioning	CARTE DEMAGNETISEE / MUETTE	-
+PicklistValue.Case.External_Case_Detail.Certificate of vigilance	Certificate of vigilance	ATTESTATION DE VIGILANCE	-
+PicklistValue.Case.External_Case_Detail.Certified Copy Card	Certified Copy Card	CARTE GRISE COPIE CERTIFIEE CONFORME	-
+PicklistValue.Case.External_Case_Detail.Change owner	Change owner	CARTE GRISE CHANGEMENT LOCATAIRE	-
+PicklistValue.Case.External_Case_Detail.Child driving	Child driving	CONDUITE ACCOMPAGNEE	-
+PicklistValue.Case.External_Case_Detail.Claim	Claim	RECLAMATION SUITE TRAVAUX	-
+PicklistValue.Case.External_Case_Detail.Clearance Car license	Clearance Car license	DESTOCKAGE CARTE GRISE	-
+PicklistValue.Case.External_Case_Detail.Commercial terms	Commercial terms	VALIDATION CONDITIONS COMMERCIALES	-
+PicklistValue.Case.External_Case_Detail.Company car tax	Company car tax	TUV EDITION	-
+PicklistValue.Case.External_Case_Detail.Consumption	Consumption	CONSOMMATIONS ENERGIE	-
+PicklistValue.Case.External_Case_Detail.Consumptions	Consumptions	CONSOMMATIONS TELEPEAGE	-
+PicklistValue.Case.External_Case_Detail.Contract Administration	Contract Administration	Administration des contrats	-
+PicklistValue.Case.External_Case_Detail.Contract Lign Opening	Contract Lign Opening	OUVERTURE LIGNE CONTRAT	-
+PicklistValue.Case.External_Case_Detail.Contract details	Contract details	DOCUMENTS CONTRACTUELS	-
+PicklistValue.Case.External_Case_Detail.Contract termination cancellation	Contract termination cancellation	SGP ASSURANCE FIN DE GESTION	-
+PicklistValue.Case.External_Case_Detail.Contracts	Contracts	CONTRAT CADRE	-
+PicklistValue.Case.External_Case_Detail.Convoyment / Delivery of new vehicle	Convoyment / Delivery of new vehicle	CONVOYAGE / LIVRAISON VEHICULE NEUF	-
+PicklistValue.Case.External_Case_Detail.Convoyment / Reassignment vehicle	Convoyment / Reassignment vehicle	CONVOYAGE / REAFFECTATION DE VEHICULE	-
+PicklistValue.Case.External_Case_Detail.Convoyment / Return	Convoyment / Return	CONVOYAGE / RESTITUTION	-
+PicklistValue.Case.External_Case_Detail.Country exit	Country exit	SORTIE DE TERRITOIRE	-
+PicklistValue.Case.External_Case_Detail.Credit request	Credit request	DEMANDE D'AVOIR	-
+PicklistValue.Case.External_Case_Detail.Customer	Customer	Client	-
+PicklistValue.Case.External_Case_Detail.Customer account opening	Customer account opening	OUVERTURE COMPTE CLIENT	-
+PicklistValue.Case.External_Case_Detail.Customer reference	Customer reference	REFERENCE CLIENT	-
+PicklistValue.Case.External_Case_Detail.DAMAGES AFTER RESTITUTION	DAMAGES AFTER RESTITUTION	DOMMAGES APRES RESTITUTION	-
+PicklistValue.Case.External_Case_Detail.DAMAGES BEFORE RESTITUTION	DAMAGES BEFORE RESTITUTION	DOMMAGES AVANT RESTITUTION	-
+PicklistValue.Case.External_Case_Detail.DETAIL	DETAIL	REEDITION FACTURE	-
+PicklistValue.Case.External_Case_Detail.Damage repairs	Damage repairs	Réparation Légére	-
+PicklistValue.Case.External_Case_Detail.Deductible pay-off	Deductible pay-off	AND EDITION	-
+PicklistValue.Case.External_Case_Detail.Defective / not received swipe card Badge	Defective / not received swipe card Badge	TELEBADGE DEFECTUEUX/NON RECU	-
+PicklistValue.Case.External_Case_Detail.Delayed delivery	Delayed delivery	Retard de Livraison	-
+PicklistValue.Case.External_Case_Detail.Delivery	Delivery	PV DE LIVRAISON	-
+PicklistValue.Case.External_Case_Detail.Delivery area	Delivery area	LIEU DE LIVRAISON	-
+PicklistValue.Case.External_Case_Detail.Direct sale to driver	Direct sale to driver	Vente au conducteur	-
+PicklistValue.Case.External_Case_Detail.Do not give call subject	Do not give call subject	NE DONNE PAS OBJET DE L'APPEL	-
+PicklistValue.Case.External_Case_Detail.Document request	Document request	Detail papier	-
+PicklistValue.Case.External_Case_Detail.Documents	Documents	MEMO ASSURANCE (CARTE VERTE)	-
+PicklistValue.Case.External_Case_Detail.Documents request	Documents request	Detail papier	-
+PicklistValue.Case.External_Case_Detail.Documents request_	Documents request_	Detail papier	-
+PicklistValue.Case.External_Case_Detail.Driver	Driver	Conducteur	-
+PicklistValue.Case.External_Case_Detail.Duplicate	Duplicate	OPPOSITION/DUPLICATA	-
+PicklistValue.Case.External_Case_Detail.Duration/Km	Duration/Km	DUREE/KILOMETRAGE	-
+PicklistValue.Case.External_Case_Detail.EMPLOYEE OPTION	EMPLOYEE OPTION	OPTION COLLABORATEUR	-
+PicklistValue.Case.External_Case_Detail.END OF THE CONTRACT	END OF THE CONTRACT	FIN DE LOCATION	-
+PicklistValue.Case.External_Case_Detail.ENERGY CARD FRAUD ALERT	ENERGY CARD FRAUD ALERT	ALERTE FRAUDE CARTE ENERGIE	-
+PicklistValue.Case.External_Case_Detail.End lease simulation	End lease simulation	SIMULATION FIN DE LOC	-
+PicklistValue.Case.External_Case_Detail.End of contract	End of contract	FIN DE LOCATION	-
+PicklistValue.Case.External_Case_Detail.End of contract inspection	End of contract inspection	PRE EXPERTISE	-
+PicklistValue.Case.External_Case_Detail.Executive discount	Executive discount	REMISE DIRECTION	-
+PicklistValue.Case.External_Case_Detail.Exemption	Exemption	EXONERATION	-
+PicklistValue.Case.External_Case_Detail.FPS	FPS	FPS	-
+PicklistValue.Case.External_Case_Detail.FPS - Administrative objection	FPS - Administrative objection	FPS - OPPOSITION ADMINISTRATIVE	-
+PicklistValue.Case.External_Case_Detail.FPS - Bailiff's notice	FPS - Bailiff's notice	FPS - AVIS D'HUISSIER	-
+PicklistValue.Case.External_Case_Detail.FPS - Majored	FPS - Majored	FPS - MAJORÉ	-
+PicklistValue.Case.External_Case_Detail.FPS - Order to pay	FPS - Order to pay	FPS - COMMANDEMENT À PAYER	-
+PicklistValue.Case.External_Case_Detail.Fee explanation	Fee explanation	EXPLICATION FRAIS / FRAIS A L'ACTE	-
+PicklistValue.Case.External_Case_Detail.Fine procedure	Fine procedure	REGLES ET PROCEDURES	-
+PicklistValue.Case.External_Case_Detail.Fines	Fines	AMENDES	-
+PicklistValue.Case.External_Case_Detail.Fleet statement	Fleet statement	ETAT DE PARC	-
+PicklistValue.Case.External_Case_Detail.Flex	Flex	RESERVATION AYVENS FLEX (LMD)	-
+PicklistValue.Case.External_Case_Detail.Fringe benefits	Fringe benefits	AEN EDITION	-
+PicklistValue.Case.External_Case_Detail.Fuel	Fuel	CARBURANT	-
+PicklistValue.Case.External_Case_Detail.Fuel Card	Fuel Card	CARTE ENERGIE	-
+PicklistValue.Case.External_Case_Detail.Garages information	Garages information	RECHERCHE GARAGE	-
+PicklistValue.Case.External_Case_Detail.Glass repair	Glass repair	BRIS DE GLACE	-
+PicklistValue.Case.External_Case_Detail.Green card	Green card	CARTE VERTE	-
+PicklistValue.Case.External_Case_Detail.Guarantee Return	Guarantee Return	RAPPEL CONSTRUCTEUR	-
+PicklistValue.Case.External_Case_Detail.IBAN	IBAN	IBAN	-
+PicklistValue.Case.External_Case_Detail.INCOMPLETE FILES	INCOMPLETE FILES	DOSSIER INCOMPLET	-
+PicklistValue.Case.External_Case_Detail.Information statement	Information statement	RELEVE DINFORMATION	-
+PicklistValue.Case.External_Case_Detail.Insurance	Insurance	SGP ASSURANCE PRISE EN GESTION	-
+PicklistValue.Case.External_Case_Detail.Insurance policy	Insurance policy	POLICE ASSURANCE	-
+PicklistValue.Case.External_Case_Detail.Invoice copy	Invoice copy	DEMANDE DE FACTURE ACHAT	-
+PicklistValue.Case.External_Case_Detail.Judicial Requisition	Judicial Requisition	REQUISITION JUDICIAIRE	-
+PicklistValue.Case.External_Case_Detail.LIASSE FISCALE/Kbis	LIASSE FISCALE/Kbis	LIASSE FISCALE / KBIS / KYC	-
+PicklistValue.Case.External_Case_Detail.LMD	LMD	RESTITUTION AYVENS FLEX (LMD)	-
+PicklistValue.Case.External_Case_Detail.LOM EDITION	LOM EDITION	LOM EDITION	-
+PicklistValue.Case.External_Case_Detail.LOM EXPLANATION	LOM EXPLANATION	LOM EXPLICATION	-
+PicklistValue.Case.External_Case_Detail.Lease end	Lease end	FIN DE LOCATION	-
+PicklistValue.Case.External_Case_Detail.Legal	Legal	Juridique	-
+PicklistValue.Case.External_Case_Detail.Legal informations	Legal informations	INFORMATIONS LÉGALES	-
+PicklistValue.Case.External_Case_Detail.License plate registration	License plate registration	ADRESSE IMMATRICULATION	-
+PicklistValue.Case.External_Case_Detail.License-holder	License-holder	CONCESSIONNAIRES	-
+PicklistValue.Case.External_Case_Detail.Litigation	Litigation	CONTENTIEUX	-
+PicklistValue.Case.External_Case_Detail.Long repairs	Long repairs	Réparation Lourde	-
+PicklistValue.Case.External_Case_Detail.Lost/stolen swipe card Badge	Lost/stolen swipe card Badge	OPPOSTION ET DUPLICATA TELEBADGE	-
+PicklistValue.Case.External_Case_Detail.Maintenance	Maintenance	MAINTENANCE	-
+PicklistValue.Case.External_Case_Detail.Maintenance card	Maintenance card	CARTE ENTRETIEN	-
+PicklistValue.Case.External_Case_Detail.Medium term lease	Medium term lease	LMD	-
+PicklistValue.Case.External_Case_Detail.Micromobility	Micromobility	MOVE	-
+PicklistValue.Case.External_Case_Detail.My ALD / My AREA	My ALD / My AREA	MY DRIVER	-
+PicklistValue.Case.External_Case_Detail.Nego Discount Trade	Nego Discount Trade	REMISE NEGO. COMMERCIALE	-
+PicklistValue.Case.External_Case_Detail.New edition	New edition	REEDITION CP	-
+PicklistValue.Case.External_Case_Detail.New study	New study	NOUVELLE ETUDE	-
+PicklistValue.Case.External_Case_Detail.Non received payment	Non received payment	RECOUVREMENT	-
+PicklistValue.Case.External_Case_Detail.OUTCLASS	OUTCLASS	SURCLASSEMENT	-
+PicklistValue.Case.External_Case_Detail.Order / delivery	Order / delivery	COMMANDE	-
+PicklistValue.Case.External_Case_Detail.Order Recalculation	Order Recalculation	MODIFICATION DE COMMANDE / REPIQUAGE	-
+PicklistValue.Case.External_Case_Detail.Order cancellation	Order cancellation	ANNULATION DE COMMANDE	-
+PicklistValue.Case.External_Case_Detail.Other	Other	AUTRE	-
+PicklistValue.Case.External_Case_Detail.Others	Others	Autres	-
+PicklistValue.Case.External_Case_Detail.PARAMETRAGE COMPTE/CARTE/D174	PARAMETRAGE COMPTE/CARTE/D174	PARAMETRAGE CARTE ENERGIE	-
+PicklistValue.Case.External_Case_Detail.Payment method	Payment method	MODE DE RÈGLEMENT	-
+PicklistValue.Case.External_Case_Detail.Penetration discount	Penetration discount	REMISE OPE CONQUETE	-
+PicklistValue.Case.External_Case_Detail.Periodical technical inspection (ITP)	Periodical technical inspection (ITP)	Contrôle Technique Périodique	-
+PicklistValue.Case.External_Case_Detail.Placement Recalculation	Placement Recalculation	FRAIS DE DEPRECIATION COMPLEMENTAIRE	-
+PicklistValue.Case.External_Case_Detail.Plate Number Theft	Plate Number Theft	CARTE GRISE USURPATION DE PLAQUE	-
+PicklistValue.Case.External_Case_Detail.Progress followup form	Progress followup form	FICHE DE PROGRES	-
+PicklistValue.Case.External_Case_Detail.Purchase Agreement	Purchase Agreement	ACCORD ACHATS	-
+PicklistValue.Case.External_Case_Detail.QUOTE ELOQUA	QUOTE ELOQUA	DEVIS ELOQUA	-
+PicklistValue.Case.External_Case_Detail.Quotation	Quotation	DEVIS	-
+PicklistValue.Case.External_Case_Detail.RAPPEL CLIENT	RAPPEL CLIENT	RAPPEL CLIENT	-
+PicklistValue.Case.External_Case_Detail.REFUND REQUEST	REFUND REQUEST	DEMANDE DE REMBOURSEMENT	-
+PicklistValue.Case.External_Case_Detail.RESOPEL	RESOPEL	MARQUES BLANCHES	-
+PicklistValue.Case.External_Case_Detail.Rebill	Rebill	REFACTURATION	-
+PicklistValue.Case.External_Case_Detail.Redelivery	Redelivery	RE-LIVRAISON	-
+PicklistValue.Case.External_Case_Detail.Refunds	Refunds	REMBOURSEMENT CLIENT	-
+PicklistValue.Case.External_Case_Detail.Registration	Registration	ADRESSE IMMATRICULATION	-
+PicklistValue.Case.External_Case_Detail.Registration card - replacement	Registration card - replacement	CARTE GRISE CHANGEMENT ADRESSE	-
+PicklistValue.Case.External_Case_Detail.Registration data	Registration data	RECTIFICATION DE CARTE GRISE	-
+PicklistValue.Case.External_Case_Detail.Registration detail	Registration detail	Détails d'Immatriculation	-
+PicklistValue.Case.External_Case_Detail.Registration transfer	Registration transfer	CARTE GRISE DESTOCKAGE	-
+PicklistValue.Case.External_Case_Detail.Relief vehicle request	Relief vehicle request	Demande Véhicule de Remplacement	-
+PicklistValue.Case.External_Case_Detail.Rents	Rents	EXPLICATION DE FACTURE	-
+PicklistValue.Case.External_Case_Detail.Repair status	Repair status	SUIVI DES REPARATIONS	-
+PicklistValue.Case.External_Case_Detail.Request	Request	DEMANDE PRISE EN CHARGE	-
+PicklistValue.Case.External_Case_Detail.Resale	Resale	REVENTE	-
+PicklistValue.Case.External_Case_Detail.Reset Code	Reset Code	REEDITION DE CODE ENERGIE	-
+PicklistValue.Case.External_Case_Detail.Restitution Expertise	Restitution Expertise	EXPERTISE RESTITUTION	-
+PicklistValue.Case.External_Case_Detail.Retrait/ajout presta (hors pneusus)	Retrait/ajout presta (hors pneusus)	RETRAIT / AJOUT PRESTATIONS	-
+PicklistValue.Case.External_Case_Detail.Return place	Return place	LIEU DE RESTITUTION	-
+PicklistValue.Case.External_Case_Detail.Return place unknown	Return place unknown	LIEU DE RESTITUTION INCONNU	-
+PicklistValue.Case.External_Case_Detail.Returned swipe card Badge	Returned swipe card Badge	SGP TELEBADGE FIN DE GESTION	-
+PicklistValue.Case.External_Case_Detail.Right of access	Right of access	DROIT D’ACCÈS DE LA PERSONNE CONCERNÉE	-
+PicklistValue.Case.External_Case_Detail.Right of anonymization	Right of anonymization	DROIT A L'EFFACEMENT	-
+PicklistValue.Case.External_Case_Detail.Right of limitation	Right of limitation	DROIT À LA LIMITATION DU TRAITEMENT	-
+PicklistValue.Case.External_Case_Detail.Right of portability	Right of portability	DROIT À LA PORTABILITÉ DES DONNÉES	-
+PicklistValue.Case.External_Case_Detail.Right to object	Right to object	DROIT À L’OPPOSITION	-
+PicklistValue.Case.External_Case_Detail.Right to rectify	Right to rectify	DROIT DE RECTIFICATION	-
+PicklistValue.Case.External_Case_Detail.Rules and procedures	Rules and procedures	REGLES ET PROCEDURES	-
+PicklistValue.Case.External_Case_Detail.SG Group	SG Group	GROUPE SG	-
+PicklistValue.Case.External_Case_Detail.SGP CARBURANT	SGP CARBURANT	SGP ENERGIE PRISE EN GESTION	-
+PicklistValue.Case.External_Case_Detail.SGP Swipe cards	SGP Swipe cards	SGP TELEBADGE PRISE EN GESTION	-
+PicklistValue.Case.External_Case_Detail.Sales	Sales	Commercial	-
+PicklistValue.Case.External_Case_Detail.Sales price report	Sales price report	REPORTING CLIENT	-
+PicklistValue.Case.External_Case_Detail.Schedule	Schedule	PRISE DE RENDEZ VOUS	-
+PicklistValue.Case.External_Case_Detail.Seasonal tyres change	Seasonal tyres change	PERMUTATION	-
+PicklistValue.Case.External_Case_Detail.Service quality	Service quality	SAV	-
+PicklistValue.Case.External_Case_Detail.Short term lease	Short term lease	COURTE DUREE	-
+PicklistValue.Case.External_Case_Detail.Sinister follow-up	Sinister follow-up	SUIVI SINISTRE	-
+PicklistValue.Case.External_Case_Detail.Sinister statement	Sinister statement	DECLARATION AVEC TIERS	-
+PicklistValue.Case.External_Case_Detail.Sinister whitout statement	Sinister whitout statement	DECLARATION SANS TIERS	-
+PicklistValue.Case.External_Case_Detail.Special veh. quotation	Special veh. quotation	TARIFICATION VEH. SPECIAUX	-
+PicklistValue.Case.External_Case_Detail.Start Contract Management	Start Contract Management	PRISE EN GESTION	-
+PicklistValue.Case.External_Case_Detail.Statistics	Statistics	DEMANDE DE STATISTIQUES	-
+PicklistValue.Case.External_Case_Detail.Structure	Structure	STRUCTURE	-
+PicklistValue.Case.External_Case_Detail.Study follow-up	Study follow-up	SUIVI ETUDE	-
+PicklistValue.Case.External_Case_Detail.Supplier List	Supplier List	LISTE FOURNISSEURS	-
+PicklistValue.Case.External_Case_Detail.TCO study	TCO study	CONTRE EXPERTISE	-
+PicklistValue.Case.External_Case_Detail.TUV EXPLANATION	TUV EXPLANATION	TUV EXPLICATION	-
+PicklistValue.Case.External_Case_Detail.Technical inspection	Technical inspection	PROBLEME TECHNIQUE RECURRENT	-
+PicklistValue.Case.External_Case_Detail.Telematics	Telematics	TELEMATIQUE	-
+PicklistValue.Case.External_Case_Detail.Theft	Theft	Vol	-
+PicklistValue.Case.External_Case_Detail.Tire change	Tire change	CHANGEMENT PNEU	-
+PicklistValue.Case.External_Case_Detail.Tire repair	Tire repair	CREVAISON	-
+PicklistValue.Case.External_Case_Detail.Total loss	Total loss	EPAVE	-
+PicklistValue.Case.External_Case_Detail.Total sinister statement	Total sinister statement	DECLARATION DE SINISTRE TOTAL	-
+PicklistValue.Case.External_Case_Detail.Transfer	Transfer	TRANSFERT	-
+PicklistValue.Case.External_Case_Detail.Transport	Transport	CONVOYAGE LIVRAISON VN	-
+PicklistValue.Case.External_Case_Detail.Transport by truck	Transport by truck	TRANSPORT PAR CAMION	-
+PicklistValue.Case.External_Case_Detail.Tyre	Tyre	PNEU	-
+PicklistValue.Case.External_Case_Detail.Tyre transfer	Tyre transfer	COMPTEUR PNEU	-
+PicklistValue.Case.External_Case_Detail.Tyres	Tyres	CAMPAGNE PNEU	-
+PicklistValue.Case.External_Case_Detail.Unblock order	Unblock order	DÉBLOCAGE COMMANDES	-
+PicklistValue.Case.External_Case_Detail.Uninsured Total sinisters	Uninsured Total sinisters	NON ASSURE SINITRES TOTAUX	-
+PicklistValue.Case.External_Case_Detail.Uninsured VE	Uninsured VE	NON ASSURE VE	-
+PicklistValue.Case.External_Case_Detail.Update Contacts	Update Contacts	MISE A JOUR CONTACTS	-
+PicklistValue.Case.External_Case_Detail.Updating contacts	Updating contacts	MAJ CONTACT ROLE 1	-
+PicklistValue.Case.External_Case_Detail.User buying out	User buying out	VENTE A CONDUCTEUR	-
+PicklistValue.Case.External_Case_Detail.VIP	VIP	VIP	-
+PicklistValue.Case.External_Case_Detail.Validated order	Validated order	COMMANDES VALIDEES	-
+PicklistValue.Case.External_Case_Detail.Vehicle Unavailable	Vehicle Unavailable	VEHICULE INDISPONIBLE	-
+PicklistValue.Case.External_Case_Detail.Vehicle documents	Vehicle documents	DOCUMENTS DE BORD	-
+PicklistValue.Case.External_Case_Detail.Vehicle return	Vehicle return	PRISE DE RDV MC RESTITUTION	-
+PicklistValue.Case.External_Case_Detail.Vehicle return at end of contract	Vehicle return at end of contract	CONFIRMATION RESTITUTION DEFINITIVE	-
+PicklistValue.Case.External_Case_Detail.WAITING STATUS (A)	WAITING STATUS (A)	STATUT ATTENTE (A)	-
+PicklistValue.Case.External_Case_Detail.With fuel management	With fuel management	SGP ENERGIE FIN DE GESTION	-
+PicklistValue.Case.External_Case_Detail.damage refund c/o agreement supplier	damage refund c/o agreement supplier	ACCORD TRIPARTITE	-
+PicklistValue.Case.External_Case_Detail.electronic files	electronic files	FICHIERS ELECTRONIQUES	-
+PicklistValue.Case.External_Case_Detail.parametrage facture	parametrage facture	PARAMETRAGE FACTURE	-
+PicklistValue.Case.External_Case_Detail.supplier	supplier	Fournisseur	-
+PicklistValue.Case.External_Case_Type.Cancelation	Cancelation	Annulation	-
+PicklistValue.Case.External_Case_Type.Cancellation	Cancellation	ANNULATION	-
+PicklistValue.Case.External_Case_Type.Change	Change	Modification	-
+PicklistValue.Case.External_Case_Type.Claim	Claim	RECLAMATION	-
+PicklistValue.Case.External_Case_Type.Complaint	Complaint	Réclamation	-
+PicklistValue.Case.External_Case_Type.Compliment	Compliment	Remerciement	-
+PicklistValue.Case.External_Case_Type.Extension	Extension	PROLONGATION	-
+PicklistValue.Case.External_Case_Type.Information	Information	Information	-
+PicklistValue.Case.External_Case_Type.Modification	Modification	MODIFICATION	-
+PicklistValue.Case.External_Case_Type.New Request_MOR	New Request_MOR	Nouvelle requête	-
+PicklistValue.Case.External_Case_Type.New request	New request	NOUVELLE DEMANDE	-
+PicklistValue.Case.External_Case_Type.Other	Other	Autre	-
+PicklistValue.Case.External_Case_Type.Request	Request	Demande	-
+PicklistValue.Case.External_description.Administratives reasons	Administratives reasons	Raisons administratives	-
+PicklistValue.Case.External_description.Assistance	Assistance	Assistance	-
+PicklistValue.Case.External_description.Body & Paint repairs	Body & Paint repairs	Réparations Tolerie et Peinture	-
+PicklistValue.Case.External_description.Bottom collision	Bottom collision	Choc en sous-bassement	-
+PicklistValue.Case.External_description.Casualty reason	Casualty reason	Pour cause sinistre	-
+PicklistValue.Case.External_description.Casualty repair	Casualty repair	Réparation sinistre	-
+PicklistValue.Case.External_description.Client request	Client request	Demande Client	-
+PicklistValue.Case.External_description.Collection	Collection	Recouverement	-
+PicklistValue.Case.External_description.Collision Left side	Collision Left side	Choc Latéral Gauche	-
+PicklistValue.Case.External_description.Collision Right side	Collision Right side	Choc Latéral Droit	-
+PicklistValue.Case.External_description.Commercial Service	Commercial Service	Service Commercial	-
+PicklistValue.Case.External_description.Customer	Customer	Client	-
+PicklistValue.Case.External_description.Damage and accessory theft	Damage and accessory theft	Vol accessoires avec degradation	-
+PicklistValue.Case.External_description.Delivery	Delivery	Livraison	-
+PicklistValue.Case.External_description.File Acceptance	File Acceptance	Acceptation de dossier	-
+PicklistValue.Case.External_description.Front collision	Front collision	Choc Frontal	-
+PicklistValue.Case.External_description.General damage	General damage	Dommages diverses	-
+PicklistValue.Case.External_description.Helpline	Helpline	Accueil Téléphonique	-
+PicklistValue.Case.External_description.Information	Information	Renseignements	-
+PicklistValue.Case.External_description.Insurance	Insurance	Assurance	-
+PicklistValue.Case.External_description.Invoicing	Invoicing	Facturation/Refacturation/Avoir	-
+PicklistValue.Case.External_description.Maintenance & Repair	Maintenance & Repair	Maintenance/Entretien	-
+PicklistValue.Case.External_description.Mechanical repairs	Mechanical repairs	Réparations Mécaniques	-
+PicklistValue.Case.External_description.Others	Others	Autres	-
+PicklistValue.Case.External_description.Periodical technical inspection (ITP)	Periodical technical inspection (ITP)	Contrôle Technique Périodique	-
+PicklistValue.Case.External_description.Premises welcome	Premises welcome	Accueil Siège	-
+PicklistValue.Case.External_description.Rear-end collision	Rear-end collision	Choc arrière	-
+PicklistValue.Case.External_description.Refusal of Client Support	Refusal of Client Support	Refus de prise en charge client	-
+PicklistValue.Case.External_description.Relief Car	Relief Car	Véhicule de remplacement	-
+PicklistValue.Case.External_description.Stolen vehicle	Stolen vehicle	Véhicule volé	-
+PicklistValue.Case.External_description.Supplier	Supplier	Fournisseur	-
+PicklistValue.Case.External_description.Theft	Theft	Vol	-
+PicklistValue.Case.External_description.Theft attempt	Theft attempt	Tentative de vol	-
+PicklistValue.Case.External_description.Vehicle Documents	Vehicle Documents	Documents de bord	-
+PicklistValue.Case.External_description.Vehicle Return	Vehicle Return	Restitution	-
+PicklistValue.Case.FRA_Webquoter_Detail.Check received offer	Check received offer	Vérification de l’offre reçue	-
+PicklistValue.Case.FRA_Webquoter_Detail.Order to enter	Order to enter	Commande à saisir	-
+PicklistValue.Case.FRA_Webquoter_Detail.Refused	Refused	Refusé	-
+PicklistValue.Case.FRA_Webquoter_Detail.To validate	To validate	A valider	-
+PicklistValue.Case.FRA_Webquoter_Detail.Waiting for Ayvens offer	Waiting for Ayvens offer	En attente d’une offre Ayvens	-
+PicklistValue.Case.FRA_Webquoter_Detail.Waiting for customer validation	Waiting for customer validation	En attente de validation client	-
+PicklistValue.Case.FRA_Webquoter_Detail.Waiting for driver offer	Waiting for driver offer	En attente d’une offre conducteur	-
+PicklistValue.Case.FRA_Webquoter_Detail.Waiting for fleet manager offer	Waiting for fleet manager offer	En attente d’une offre gestionnaire de parc	-
+PicklistValue.Case.FRA_Webquoter_Detail.Won	Won	Gagné	-
+PicklistValue.Case.Financial_Impact_type.Commercial Gesture	Commercial Gesture	Geste commercial	-
+PicklistValue.Case.Financial_Impact_type.Operational Loss	Operational Loss	Perte opérationnelle	-
+PicklistValue.Case.Financial_Impact_type.Vehicle Allocation	Vehicle Allocation	Compensation commerciale	-
+PicklistValue.Case.Financial_impact.Customer Satisfaction​	Customer Satisfaction​	Satisfaction client	-
+PicklistValue.Case.Financial_impact.Escalated	Escalated	Escaladé	-
+PicklistValue.Case.Financial_impact.Financial	Financial	Financier	-
+PicklistValue.Case.Financial_impact.Legal​	Legal​	Juridique	-
+PicklistValue.Case.Financial_impact.None	None	Aucun	-
+PicklistValue.Case.Financial_impact.Other	Other	Autres	-
+PicklistValue.Case.Financial_impact.Reputation​	Reputation​	Réputation	-
+PicklistValue.Case.First_Contract_Mod.No	No	Non	-
+PicklistValue.Case.First_Contract_Mod.Yes	Yes	Oui	-
+PicklistValue.Case.Fuel_supplier.Afriquia	Afriquia	Afriquia	-
+PicklistValue.Case.Fuel_supplier.Total	Total	Total	-
+PicklistValue.Case.Fuel_supplier.Vivo	Vivo	Vivo	-
+PicklistValue.Case.Guilty_party.Driver fault	Driver fault	Faute du conducteur	-
+PicklistValue.Case.Guilty_party.Falling objects	Falling objects	Chute d'objet	-
+PicklistValue.Case.Guilty_party.Shared fault	Shared fault	Faute partagée	-
+PicklistValue.Case.Guilty_party.Third party	Third party	Partie tierce	-
+PicklistValue.Case.Guilty_party.Unknown author	Unknown author	Inconnue	-
+PicklistValue.Case.Guilty_party.Weather conditions	Weather conditions	Conditions climatiques	-
+PicklistValue.Case.Insurance.No	No	Non	-
+PicklistValue.Case.Insurance.Yes	Yes	Oui	-
+PicklistValue.Case.Insurance_Status.Quotation Lost	Quotation Lost	Sans suite	-
+PicklistValue.Case.Insurance_Status.Quotation in Progress	Quotation in Progress	Cotation en cours	-
+PicklistValue.Case.Insurance_Status.Signature	Signature	Signature	-
+PicklistValue.Case.Insurance_Status.Waiting Client Response	Waiting Client Response	Attente retour client	-
+PicklistValue.Case.Insurance_Status.Waiting D035 Doc	Waiting D035 Doc	Attente D035	-
+PicklistValue.Case.Maintenance_Contract.No	No	Non	-
+PicklistValue.Case.Maintenance_Contract.Yes	Yes	Oui	-
+PicklistValue.Case.Non_standard_budget.No	No	Non	-
+PicklistValue.Case.Non_standard_budget.Yes	Yes	Oui	-
+PicklistValue.Case.Operational_Status.Escalated	Escalated	Escaladé	-
+PicklistValue.Case.Operational_Status.Sent to Compliance	Sent to Compliance	Envoyé à la conformité	-
+PicklistValue.Case.Operational_Status.Sent to Customer	Sent to Customer	Envoyé au client	-
+PicklistValue.Case.Operational_Status.Sent to Finance	Sent to Finance	Envoyé à la Finance	-
+PicklistValue.Case.Operational_Status.Sent to Legal	Sent to Legal	Envoyé au juridique	-
+PicklistValue.Case.Relief_vehicle_category.Medium	Medium	Moyen	-
+PicklistValue.Case.Relief_vehicle_category.V2	V2	V2	-
+PicklistValue.Case.Relief_vehicle_category.V3	V3	V3	-
+PicklistValue.Case.Relief_vehicle_category.VC	VC	VC	-
+PicklistValue.Case.Request_reason.Accidents	Accidents	Sinistre	-
+PicklistValue.Case.Request_reason.Commercial gesture	Commercial gesture	Geste commercial	-
+PicklistValue.Case.Request_reason.Documents request	Documents request	Expiration document de bord	-
+PicklistValue.Case.Request_reason.Lost car	Lost car	Epave	-
+PicklistValue.Case.Request_reason.Maintenance	Maintenance	Maintenance	-
+PicklistValue.Case.Request_reason.Others	Others	Autres	-
+PicklistValue.Case.Request_reason.Raod Test	Raod Test	Essai	-
+PicklistValue.Case.Request_reason.Repairs	Repairs	Réparation	-
+PicklistValue.Case.RiskSeverity.High	High	Elevé	-
+PicklistValue.Case.RiskSeverity.Low	Low	Faible	-
+PicklistValue.Case.RiskSeverity.Medium	Medium	Moyen	-
+PicklistValue.Case.RiskSeverity.Very High	Very High	Très élevé/critique	-
+PicklistValue.Case.Risk_risk_taxonomy.Business risks	Business risks	Risques d'affaires	-
+PicklistValue.Case.Risk_risk_taxonomy.CCP Clearing Member risk	CCP Clearing Member risk	Risque de membre compensateur de contrepartie centrale	-
+PicklistValue.Case.Risk_risk_taxonomy.Compliance & Legal Risks	Compliance & Legal Risks	Risques de conformité et juridiques	-
+PicklistValue.Case.Risk_risk_taxonomy.Counterparty Credit Risk (CCR)	Counterparty Credit Risk (CCR)	Risque de crédit de la contrepartie	-
+PicklistValue.Case.Risk_risk_taxonomy.Debtor Risk	Debtor Risk	Risque de débiteur	-
+PicklistValue.Case.Risk_risk_taxonomy.Digital risk (o/w AI)	Digital risk (o/w AI)	Risque numérique	-
+PicklistValue.Case.Risk_risk_taxonomy.ESG Risk	ESG Risk	Risque ESG	-
+PicklistValue.Case.Risk_risk_taxonomy.Geopolitical and Country Risk	Geopolitical and Country Risk	Risque géopolitique et risque pays	-
+PicklistValue.Case.Risk_risk_taxonomy.Liquidity and funding risks	Liquidity and funding risks	Risques de liquidité et de financement	-
+PicklistValue.Case.Risk_risk_taxonomy.Market risk	Market risk	Risque de marché	-
+PicklistValue.Case.Risk_risk_taxonomy.Market risk on Banking Book	Market risk on Banking Book	Risque de marché sur le portefeuille bancaire	-
+PicklistValue.Case.Risk_risk_taxonomy.Model risk	Model risk	Risque de modèle	-
+PicklistValue.Case.Risk_risk_taxonomy.Operational Risk	Operational Risk	Risque Opérationnel	-
+PicklistValue.Case.Risk_risk_taxonomy.Own real estate risk	Own real estate risk	Risque immobilier propre	-
+PicklistValue.Case.Risk_risk_taxonomy.Participation risk	Participation risk	Risque de participation	-
+PicklistValue.Case.Risk_risk_taxonomy.Reputational Risk	Reputational Risk	Risque de Réputation	-
+PicklistValue.Case.Risk_risk_taxonomy.Risk Factor	Risk Factor	Facteur de risque	-
+PicklistValue.Case.Risk_risk_taxonomy.Risk on employee benefits	Risk on employee benefits	Risques liés aux avantages sociaux des employés	-
+PicklistValue.Case.Risk_risk_taxonomy.Settlement and delivery risk	Settlement and delivery risk	Risque de réglement et de livraison	-
+PicklistValue.Case.Risk_risk_taxonomy.Specific risks related to insurance activities	Specific risks related to insurance activities	Risques spécifiques liés aux activités d’assurance	-
+PicklistValue.Case.Risk_risk_taxonomy.Specific risks related to operating leasing activities	Specific risks related to operating leasing activities	Risques spécifiques liés aux activités de location opérationnelle	-
+PicklistValue.Case.Risk_risk_taxonomy.Strategy risk	Strategy risk	Risque Stratégique	-
+PicklistValue.Case.Risk_risk_taxonomy.Underwriting risk	Underwriting risk	Risque de souscription	-
+PicklistValue.Case.Sales_Consultant_Description.Legal	Legal	Juridique	-
+PicklistValue.Case.Solution.Action plan	Action plan	Plan d'action	-
+PicklistValue.Case.Solution.Escalated to Legal	Escalated to Legal	Escaladé au juridique	-
+PicklistValue.Case.Solution.Implementation of a new process	Implementation of a new process	Mise en place d'un nouveau process	-
+PicklistValue.Case.Solution.No action	No action	Pas d'action	-
+PicklistValue.Case.Solution.None	None	Aucun	-
+PicklistValue.Case.Solution.Policy clarification	Policy clarification	Clarification de la politique	-
+PicklistValue.Case.Solution.Process improvement	Process improvement	Amélioration du process	-
+PicklistValue.Case.Solution.Training (internal staff and suppliers)	Training (internal staff and suppliers)	Formation (équipe interne et fournisseurs)	-
+PicklistValue.Case.Third_Party_Involved.No	No	Non	-
+PicklistValue.Case.Third_Party_Involved.Yes	Yes	Oui	-
+PicklistValue.Case.Type_of_financial_correction.Commercial gesture	Commercial gesture	Geste commercial	-
+PicklistValue.Case.Type_of_financial_correction.Others	Others	Autres	-
+PicklistValue.Case.Vehicle.Immobile	Immobile	Rapatriement par ALD	-
+PicklistValue.Case.Vehicle.Immobile_MOR	Immobile_MOR	Immobile	-
+PicklistValue.Case.Vehicle.Movable	Movable	Pris en charge par le client	-
+PicklistValue.Case.Vehicle.Movable_MOR	Movable_MOR	Roulant	-
+ValidationFormula.Case.FRA_CASE_OWNER_CHANGE	This Case cannot be transferred to an external agent.	Cette requête ne peut pas être transférée à un gestionnaire externe.	-
+ValidationFormula.Case.FRA_Montant_HT_Mandatory	Field "Montant HT" must be filled in when value from Case Detail "Business discount" or "Advance restitution" is filled in".	Le champ "Montant HT" doit être renseigné lorsque le détail "GESTE COMMERCIAL" ou "COMPENSATION COMMERCIALE" est selectionné	-
+ValidationFormula.Case.MOR_Request_reason_mandatory	Please enter a value for Request Reason to save the case	Veuillez renseigner la « Raison de la demande » pour sauvegarder la requête	-
+CustomField.Case.Account_Environement.FieldLabel	Partner Name	Réseau	-
+CustomField.Case.Commercial_Gesture.FieldLabel	Commercial gesture amount	Geste commercial	-
+CustomField.Case.Commercial_Gesture_Amount.FieldLabel	Financial correction Approved amount​	Montant geste commercial	-
+CustomField.Case.Complaint_Description.FieldLabel	Complaint Resolution	Description de la réclamation	-
+CustomField.Case.Complaint_type.FieldLabel	Complaint Origin	Type de réclamation	-
+CustomField.Case.Detail_ActionPlan.FieldLabel	Action Taken	Plan d'action détaillé	-
+CustomField.Case.Solution.FieldLabel	Internal Corrective action	Solution	-
+CustomField.Case.Vehicle_No.FieldLabel	BO Contract number / Reg No	Plaque d'immatriculation	-
+PicklistValue.Case.Solution.Adaptation of existing process / IT infrastructure	Adaptation of existing process / IT infrastructure	Adaptation d'un process existant/Infrastructure IT	-
+CustomField.Operational_Task__c.Case.RelatedListLabel	Operational Tasks	Taches Opérationnelles	-
+CustomField.Operational_Task__c.Completion_Date.FieldLabel	Completion Date	Date de clôture (date fermeture ?)	-
+CustomField.Operational_Task__c.Due_Date.FieldLabel	Due Date	Date d'échéance	-
+CustomField.Operational_Task__c.Owner.FieldLabel	Owner	Propriétaire	-
+CustomField.Operational_Task__c.Start_Date.FieldLabel	Start Date	Date de Début	-
+CustomField.Operational_Task__c.Status.FieldLabel	Status	Statut	-
+CustomField.Operational_Task__c.Task_Outcome.FieldLabel	Task Outcome	Résultat de la tache (ce qui a été fait)	-
